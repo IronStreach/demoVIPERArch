@@ -25,5 +25,4 @@ class MainPresenter: MainPresenterProtocol {
     func getNameForCell(index: Int) -> String {
         return interactor.getCityNamesWith(index: index)
     }
-         
 }
